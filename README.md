@@ -20,7 +20,8 @@ Contact count will be 0 again
 
 Question 2-Build a basic lightning component that can query a list of 10 most recently created accounts and display it using a lightning app. 
 
-![image](https://github.com/hirakhaaan/Spring-SOA-test/assets/56363859/708b3711-56f0-4865-9cac-0a7fc1286b5b)
+![image](https://github.com/hirakhaaan/Spring-SOA-test/assets/56363859/c8761e1a-e301-4ca5-bbb4-cf4003aba67c)
+
 
 
 Question 3-Make a basic http callout and print the result using system.debug (https://postman-echo.com/get?foo1=bar1&foo2=bar2)
