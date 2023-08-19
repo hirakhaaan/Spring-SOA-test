@@ -14,7 +14,7 @@ public class HTTPCalloutClass {
             // Deserializes the JSON string into collections of primitive data types.
             Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(res.getBody());
 
-            System.debug('Response: '+results);
+            System.debug('Result: '+results);
         }
     }
 }
