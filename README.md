@@ -16,6 +16,8 @@ Number of Contacts changed to 1
 Contact count will be 0 again
 ![image](https://github.com/hirakhaaan/Spring-SOA-test/assets/56363859/703b8325-2522-459e-8c51-bdf35ce99577)
 
+Changed a different contact's account to my current account,Count is 1 again
+![image](https://github.com/hirakhan16/Spring-SOA-test/assets/56363859/b4fc2e47-ad38-45b9-859b-4555bb9096b1)
 
 
 Question 2-Build a basic lightning component that can query a list of 10 most recently created accounts and display it using a lightning app. 
