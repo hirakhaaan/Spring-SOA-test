@@ -12,9 +12,13 @@ public class ContactController {
             }
         }else if(isUpdate){//checking if contacts are getting updated
             for(Contact con:conList){
-                if(con.AccountId!=null && oldconMap.get(con.Id).AccountId != con.AccountId){
-                    AccSet.add(con.AccountId);
-                    AccSet.add(oldconMap.get(con.Id).AccountId);
+                if(oldconMap.get(con.Id).AccountId != con.AccountId){
+                    if(con.AccountId!=null){
+                        AccSet.add(con.AccountId);
+                    }
+                    if(oldconMap.get(con.Id).AccountId != null){
+                        AccSet.add(oldconMap.get(con.Id).AccountId);
+                    }
                 }
             }  
         }
